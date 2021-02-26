@@ -1,0 +1,156 @@
+   body {
+            background-color: black;
+        }
+        .top {
+            height: 500px;
+            background-image:url(topimg2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    
+    
+    
+           
+        .navbar {
+  overflow: hidden;
+  color: black;
+    font-size: 15px;
+        
+            background-color: royalblue;
+}
+
+
+.navbar a {
+  float:left;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.subnav {
+  float: left;
+  overflow: hidden;
+    
+}
+
+
+.subnav .subnavbtn {
+  font-size: 22px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: deepskyblue;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: deepskyblue;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+        
+        
+        .logo {
+            font-size: 50px;
+            color: aqua;
+            text-align: center;
+            margin-top: 200px;
+            animation-name: example;
+            animation-direction: alternate-reverse;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes example {
+            from {opacity: 1.7;
+                
+            }
+            to {
+                opacity: .1;
+            }
+        }
+        
+        
+        
+        
+        
+        
+    
+        .section-1 {
+            display: flex;
+            background-color: royalblue;
+            margin-top: 100px;
+            padding: 20px;
+            
+        }
+    
+        
+        .subsection-2 {
+            font-size: 25px;
+            margin: 20px;
+            
+            
+        }
+        
+        
+        
+        .section-2 {
+            display: flex;
+            background-color: royalblue;
+            margin-top: 100px;
+            padding: 20px;
+            
+        }
+    
+        
+        .subsection-3 {
+            font-size: 25px;
+            margin: 20px;
+            
+            
+        }
+        
+        
+        .foot {
+            margin-top: 100px;
+            
+        }
+        
+        form {
+            font-size: 25px;
+            border: solid-black;
+            margin-bottom: 200px;
+        }
+    
+    
